@@ -8,4 +8,171 @@
     <form id="survey-form">
         <div class="form-group">
           <label id="name-label" for="name">Name</label>
+          <input
+          type="text"
+          name="name"
+          id="name"
+          class="form-control"
+          placeholder="Enter your Name"
+          required
+          />
+ </div>
+ <div class="form-group">
+   <label id="email-label" for="email">Email</label>
+   <input
+          type="email"
+          name="email"
+          id="email"
+          class="form-control"
+          placeholder="Enter your Email"
+          required
+          />
+ </div>
+ <div class="form-group">
+   <label id="number-label" for="number">
+     Age<span class="clue">(optional)</span><label>
+     <input
+            type="number"
+            name="age"
+            id="number"
+            min="10"
+            max="99"
+            class="form-control"
+            placeholder="Age"
+            />   
+          </div>
+          <div class="form-group"
+               <p>Which option best describes your current IQ?</p>
+               <select id="dropdown" name="IQ" class="form-control" required>
+                 <option disabled selected value>Select current IQ</option>
+                 <option value="completely retarded">Completely Retarded</option>
+                 <option retarded="retarded">Retarded</option><option value="midly retarded">Midly Retarded</option><option value="smarty pants">Smarty Pants</option><option value="really smart">Really Smart</option>
+                 <option value="genius">Genius</option>
+        </select>
+      </div>
+                 
+      <div class="form-group">
+        <p>Would you say is hard for you to count to ten without using your fingers?</p>
+        <label>
+          <input
+                 name="user-recomend"
+                 value="definitely"
+                 type="radio"
+                 class="input-radio"
+                 checked
+                 />Definitely</label
+        >
+        
+          <label>
+          <input
+                 name="user-recomend"
+                 value="definitely"
+                 type="radio"
+                 class="input-radio"
+                 checked
+                 />Sometimes</label
+        >
+         <label>
+          <input
+                 name="user-recomend"
+                 value="definitely"
+                 type="radio"
+                 class="input-radio"
+                 checked
+                 />Not at all</label
+        >
+      </div>
+      
+      <div class="form-group"
+           <p>
+            What is your favourite thing to do?
+          </p>
+     <select id="most-like" name="mostLike" class="form-control" required>
+          <option disabled selected value>Select an option</option>
+          <option value="chasing-cars">Chasing cars</option>
+          <option value="put-a-finger-in-my-nose">Putting a finger in my nose</option>
+          <option value="reading-and-learning">Reading and Learning</option>
+          <option value="studying">Studying</option>
+        </select>
+      </div>
+  
+  <div class="from-group">
+    <p>
+      in Which things would you like to get help to improve?
+      <span class="clue">(Check all that apply)</span>
+    </p>
+    
+    <label>
+      <input
+             name="prefer"
+             value="in-dressing-myself"
+             type="checkbox"
+             class="input-checkbox"
+             />In dressing myself</label
+      >
+     <label>      
+      <input
+      name="prefer"
+      value="in-dressing-myself"
+      type="checkbox"
+      class="input-checkbox"
+      />In dressing myself</label
+>
+<label>
+<input
+      name="prefer"
+      value="not-bitting-myself-while-chewing"
+      type="checkbox"
+      class="input-checkbox"
+      />Not bitting myself while chewing</label
+>
+  <label>
+<input
+      name="prefer"
+      value="sounding-more-smart-when-talking-to-people"
+      type="checkbox"
+      class="input-checkbox"
+      />Sounding more smart when talking to people</label
+>
+<label>
+<input
+      name="prefer"
+      value="learning-new-languages"
+      type="checkbox"
+      class="input-checkbox"
+      />Learning new languages</label
+>
+<label>
+<input
+      name="prefer"
+      value="improving-my-algebra-skills"
+      type="checkbox"
+      class="input-checkbox"
+      />Improving my algebra skills</label
+>
+<label>
+<input
+      name="prefer"
+      value="reaching-my-goal-of-becoming-a-novel-prize-winner"
+      type="checkbox"
+      class="input-checkbox"
+      />Reaching my goal of becoming a novel prize winner</label
+>
+<div class="form-group">
+ <p>Any comments or suggestions?<p>
+   <textarea
+             id="comments"
+             class="input-textarea"
+             name="comment"
+             placeholder="Enter your comment here..."
+             ></textarea>
+</div>
+
+<div class="form-group">
+  <button type="submit" id="submit" class="submit-button">
+          Submit
+</button>
+</div>
+</form>
+</div>          
           
